@@ -4,7 +4,6 @@ def palindrome(word):
     return cleaned_text == cleaned_text[::-1]
 
 if __name__ == '__main__': 
-    #REMOVE PASS AND YOUR CODE GOES HERE
     user_input = input("Enter a text: ")
     result = palindrome(user_input)
     if result:
