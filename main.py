@@ -1,5 +1,4 @@
 #REMOVE PASS AND FIX THIS FUNCTION
-#push tests LR
 def palindrome(word):
     cleaned_text = "".join(word.split()).lower()
     return cleaned_text == cleaned_text[::-1]
