@@ -1,7 +1,7 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
     cleaned_text = "".join(word.split()).lower()
-    return cleaned_text == cleaned_text[::-1]
+    return cleaned_text  and cleaned_text == cleaned_text[::-1]
 
 if __name__ == '__main__': 
     user_input = input("Enter a text: ")
